@@ -9,6 +9,8 @@ const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
 const config = require('../app/config');
 const db = new Pool(config.DB_CONFIG);
+
+
 db.connect()
   .then(() => console.log('Connected to PostgreSQL database'))
   .catch((err) => console.error('Database connection error:', err));
