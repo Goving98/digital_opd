@@ -3,6 +3,7 @@
 # dependencies
 node_modules/
 backend\node_modules
+app\config.js
 # Expo
 .expo/
 dist/
