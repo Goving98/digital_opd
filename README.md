@@ -21,18 +21,32 @@ cd digital-opd
 ```bash
 npm install
 ```
+3. Create a local PostgreSQL database named 'opd_game'
+   
+4. Update the database configuration in app/config.js with your local PostgreSQL credentials
 
-3. Start the development server
+5. Start the development server
 ```bash
 npm run web
 ```
 
-4. Running on your phone:
+6. Running on your phone:
 
-Install 'Expo Go' from your phone's app store
-Scan the QR code shown in the terminal with your phone's camera
-The app will open in Expo Go
+->Install 'Expo Go' from your phone's app store
+->Scan the QR code shown in the terminal with your phone's camera
+->The app will open in Expo Go
 
+# 📝 Note
+This app is configured to work with a local PostgreSQL database. Users will need to set up their own database with the following configuration:
+```bash
+{
+  user: 'postgres',
+  host: 'localhost',
+  database: 'opd_game',
+  password: 'your_password',  // Change this
+  port: 5432
+}
+```
 
 # 🛠️ Built With
 
