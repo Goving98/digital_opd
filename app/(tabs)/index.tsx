@@ -6,7 +6,7 @@ import WebSocket from 'react-native-websocket';
 import patientData from '../data/patients.json';
 import config from '../config';
 
-const genAI = new GoogleGenerativeAI(config.GEMINI_API_KEY);
+const genAI = new GoogleGenerativeAI(config.API_KEY);
 interface Message {
   type: 'patient' | 'ai' | 'user';
   text: string;
@@ -31,7 +31,7 @@ export default function TabOneScreen() {
   onOpen={() => console.log("Connected to WebSocket")}
   onMessage={(event) => {
     console.log("Received message:", event.data);
-    addAIMessage(event.data); // Assuming event.data is text
+    addAIMessage(event.data);
   }}
   onError={(error) => console.error("WebSocket error:", error)}
   onClose={() => console.log("WebSocket closed")}
