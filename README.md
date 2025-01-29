@@ -2,6 +2,15 @@
 
 This is a chatbot based learning game that helps students simulate a hospital’s OPD (outpatient department) environment and diagnose patients along with a AI senior doctor. The AI senior doctor provides the description of the patient and their symptoms.
 
+```markdown
+<div align="center">
+  <img src="screenshots/s1.png" alt="Chat Screen" width="300"/>
+  <img src="screenshots/s2.png" alt="Chat Screen" width="300"/>
+  <img src="screenshots/s3.png" alt="Chat Screen" width="300"/>
+  <img src="screenshots/s3.png" alt="Chat Screen" width="300"/>
+</div>
+```
+
 ## Get started
 
 1. Install dependencies
