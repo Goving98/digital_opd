@@ -21,7 +21,7 @@ The game involves identifying the right test for the patient symptoms and diagno
 
 The patient reveals symptoms, the senior AI doctor asks the learner what should be the next step in helping the patient. The learner has to answer in free form text. For every patient, the learner has to understand which is the best test to take for their symptoms, and post getting the test results, what’s the next best diagnosis.
 
-**Build Using **
+# Build Using
 
  React native with expo
  Express js 
